@@ -1,1 +1,1 @@
-https://letmeask-4d408.web.app/rooms/new
+https://letmeask-4d408.web.app
