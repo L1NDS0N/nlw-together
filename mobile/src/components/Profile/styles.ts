@@ -20,6 +20,10 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     color: theme.colors.heading,
   },
+  messageBox: {
+    maxWidth: 300,
+    maxHeight: 37,
+  },
   message: {
     fontFamily: theme.fonts.text400,
     color: theme.colors.highlight,

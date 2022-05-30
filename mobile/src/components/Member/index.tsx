@@ -24,17 +24,17 @@ export function Member({ data }: Props) {
 
       <View>
         <Text style={styles.title}>{data.username}</Text>
-      </View>
-      <View style={styles.status}>
-        <View
-          style={[
-            styles.bulletStatus,
-            { backgroundColor: isOnline ? online : offline },
-          ]}
-        />
-        <Text style={styles.nameStatus}>
-          {isOnline ? 'Disponível' : 'Ocupado'}
-        </Text>
+        <View style={styles.status}>
+          <View
+            style={[
+              styles.bulletStatus,
+              { backgroundColor: isOnline ? online : offline },
+            ]}
+          />
+          <Text style={styles.nameStatus}>
+            {isOnline ? 'Disponível' : 'Ocupado'}
+          </Text>
+        </View>
       </View>
     </View>
   );
